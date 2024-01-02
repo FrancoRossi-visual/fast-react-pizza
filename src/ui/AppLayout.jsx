@@ -9,7 +9,7 @@ function AppLayout() {
   console.log(navigation);
 
   return (
-    <div className="grid h-screen grid-rows-[auto_1f_auto] ">
+    <div className="grid  h-screen grid-rows-[auto_1fr_auto]">
       {isLoading && <Loader />}
 
       <Header />
